@@ -13,12 +13,16 @@ public class Appointment {
 	
 	private String time;
 
-	public Appointment(String time) {
+	public Appointment(String time, String description) {
 		this.time = time;
 	}
 
 	public String getTime() {
 		return time;
+	}
+
+	public String getDescription() {
+		return "coffee";
 	}
 	
 	
