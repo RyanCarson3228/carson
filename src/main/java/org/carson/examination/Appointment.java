@@ -19,6 +19,10 @@ public class Appointment {
 		this.description = description;
 	}
 
+//	public Appointment(long id) {
+//		// TODO Auto-generated constructor stub
+//	}
+
 	public String getTime() {
 		return time;
 	}

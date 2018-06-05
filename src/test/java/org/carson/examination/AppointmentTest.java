@@ -50,4 +50,12 @@ public class AppointmentTest {
 			assertThat(actual, is(description));
 	}
 	
+//	@Test
+//	public void shouldHaveTwoDifferentIdAppointmentsNotBeEqual() {
+//		Appointment appointment = new Appointment(1L);
+//		Appointment appointmentOther = new Appointment(2L);
+//		boolean actual = appointment.equals(appointmentOther);
+//		assertThat(actual, is(false));
+//	}
+	
 }
