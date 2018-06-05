@@ -12,9 +12,11 @@ public class Appointment {
 	private long id;
 	
 	private String time;
+	private String description;
 
 	public Appointment(String time, String description) {
 		this.time = time;
+		this.description = description;
 	}
 
 	public String getTime() {
@@ -22,7 +24,7 @@ public class Appointment {
 	}
 
 	public String getDescription() {
-		return "coffee";
+		return description;
 	}
 	
 	

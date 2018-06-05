@@ -42,4 +42,12 @@ public class AppointmentTest {
 		assertThat(actual, is(description));
 	}
 	
+	@Test
+	public void shouldHaveDescriptionDrinks() {
+		String description = "drinks";
+		underTest = new Appointment(null, description);
+		String actual = underTest.getDescription();
+			assertThat(actual, is(description));
+	}
+	
 }
