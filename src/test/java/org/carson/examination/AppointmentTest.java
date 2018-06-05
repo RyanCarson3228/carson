@@ -24,7 +24,14 @@ public class AppointmentTest {
 		underTest = new Appointment(time);
 		String actual = underTest.getTime();
 		assertThat(actual, is(time));
-		
+	}
+	
+	@Test
+	public void shouldHaveTimeTenAM() {
+		String time = "10:00AM";
+		underTest = new Appointment(time);
+		String actual = underTest.getTime();
+		assertThat(actual, is(time));
 	}
 	
 }

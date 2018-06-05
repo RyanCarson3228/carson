@@ -10,13 +10,15 @@ public class Appointment {
 	@Id
 	@GeneratedValue
 	private long id;
+	
+	private String time;
 
 	public Appointment(String time) {
-		// TODO Auto-generated constructor stub
+		this.time = time;
 	}
 
 	public String getTime() {
-		return "3:00PM";
+		return time;
 	}
 	
 	
